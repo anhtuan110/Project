@@ -1,0 +1,5 @@
+{
+  "ConnectionStrings": {
+    "MyCnn": "server=localhost;database=QuanLyQuanCafe;uid=sa;pwd=123456"
+  }
+}
