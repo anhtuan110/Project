@@ -1,4 +1,4 @@
-﻿namespace CafeManager
+﻿namespace RestaurentManager
 {
     partial class fAdmin
     {

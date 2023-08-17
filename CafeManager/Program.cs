@@ -1,4 +1,4 @@
-namespace CafeManager
+namespace RestaurentManager
 {
     internal static class Program
     {
@@ -14,5 +14,5 @@ namespace CafeManager
             Application.Run(new fLogin());
         }
     }
-    //dotnet ef dbcontext scaffold "server =localhost; database = QuanLyQuanCafe;uid=sa;pwd=123456;" Microsoft.EntityFrameworkCore.SqlServer --output-dir Models
-}
+    //dotnet ef dbcontext scaffold "server =localhost; database = QuanLyNhaHang;uid=sa;pwd=123456;" Microsoft.EntityFrameworkCore.SqlServer --output-dir Models
+    }

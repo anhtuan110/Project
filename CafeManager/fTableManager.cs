@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace CafeManager
+namespace RestaurentManager
 {
     public partial class fTableManager : Form
     {

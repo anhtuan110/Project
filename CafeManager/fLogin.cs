@@ -1,4 +1,4 @@
-﻿namespace CafeManager
+﻿namespace RestaurentManager
 {
     public partial class fLogin : Form
     {
