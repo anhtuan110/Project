@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3XWHfcglx0KYKftr+EMbGvZXduAIzzzG0kWUmT0HOZYsO8LA+wY3Ab0+75T1cjwlp5S0HP/ac6q5HLfYBDTnPw==",
+  "dgSpecHash": "ojd9GsNQY24a/NWQrVs/9R5l/geUXl9nh05p9Zsx7Fh6yIEhKvkccNA4hI3Ly8YrH6xcfsMfRbP4JsmdAboJ1g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\asus\\Desktop\\Project\\CafeManager\\RestaurentManager.csproj",
+  "projectFilePath": "C:\\Users\\asus\\Desktop\\Project\\RestaurentManager\\RestaurentManager.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\asus\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

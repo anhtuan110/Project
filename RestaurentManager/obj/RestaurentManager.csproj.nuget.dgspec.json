@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\asus\\Desktop\\Project\\CafeManager\\RestaurentManager.csproj": {}
+    "C:\\Users\\asus\\Desktop\\Project\\RestaurentManager\\RestaurentManager.csproj": {}
   },
   "projects": {
-    "C:\\Users\\asus\\Desktop\\Project\\CafeManager\\RestaurentManager.csproj": {
+    "C:\\Users\\asus\\Desktop\\Project\\RestaurentManager\\RestaurentManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\asus\\Desktop\\Project\\CafeManager\\RestaurentManager.csproj",
+        "projectUniqueName": "C:\\Users\\asus\\Desktop\\Project\\RestaurentManager\\RestaurentManager.csproj",
         "projectName": "RestaurentManager",
-        "projectPath": "C:\\Users\\asus\\Desktop\\Project\\CafeManager\\RestaurentManager.csproj",
+        "projectPath": "C:\\Users\\asus\\Desktop\\Project\\RestaurentManager\\RestaurentManager.csproj",
         "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\asus\\Desktop\\Project\\CafeManager\\obj\\",
+        "outputPath": "C:\\Users\\asus\\Desktop\\Project\\RestaurentManager\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
