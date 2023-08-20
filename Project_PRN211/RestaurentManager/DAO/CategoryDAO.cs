@@ -40,7 +40,7 @@ namespace RestaurentManager.DAO
             using (var context = new QuanLyNhaHangContext()) 
             {
                 context.FoodCategories.Add(new FoodCategory { Name = name });
-                int result = context.SaveChanges();
+                int result = context.SaveChanges(); 
                 return result > 0;
             }
         }

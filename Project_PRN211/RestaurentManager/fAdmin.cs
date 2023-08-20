@@ -26,7 +26,10 @@ namespace RestaurentManager
 
         void loadCategory()
         {
-            categoryList.DataSource = CategoryDAO.Instance.GetListCategory();
+            categoryList.DataSource = CategoryDAO.Instance.GetListCategory().Select(x => new
+            {
+                id = x.Id, name = x.Name,
+            });
 
         }
 

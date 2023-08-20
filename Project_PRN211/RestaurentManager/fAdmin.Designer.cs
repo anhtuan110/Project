@@ -67,7 +67,6 @@
             txtCategoryName = new TextBox();
             label6 = new Label();
             panel19 = new Panel();
-            txtCategoryID = new TextBox();
             label7 = new Label();
             panel13 = new Panel();
             btnShowCategory = new Button();
@@ -115,6 +114,7 @@
             btnAddAccount = new Button();
             panel25 = new Panel();
             dataGridView2 = new DataGridView();
+            txtCategoryID = new TextBox();
             tcAdmin.SuspendLayout();
             tpBill.SuspendLayout();
             panel1.SuspendLayout();
@@ -546,21 +546,11 @@
             // 
             panel19.Controls.Add(txtCategoryID);
             panel19.Controls.Add(label7);
-            panel19.Location = new Point(3, 9);
+            panel19.Location = new Point(6, 9);
             panel19.Margin = new Padding(3, 2, 3, 2);
             panel19.Name = "panel19";
             panel19.Size = new Size(263, 46);
             panel19.TabIndex = 2;
-            // 
-            // txtCategoryID
-            // 
-            txtCategoryID.Location = new Point(97, 14);
-            txtCategoryID.Margin = new Padding(3, 2, 3, 2);
-            txtCategoryID.Name = "txtCategoryID";
-            txtCategoryID.ReadOnly = true;
-            txtCategoryID.Size = new Size(164, 23);
-            txtCategoryID.TabIndex = 1;
-            txtCategoryID.UseSystemPasswordChar = true;
             // 
             // label7
             // 
@@ -1035,6 +1025,14 @@
             dataGridView2.Size = new Size(430, 253);
             dataGridView2.TabIndex = 0;
             // 
+            // txtCategoryID
+            // 
+            txtCategoryID.Location = new Point(94, 13);
+            txtCategoryID.Margin = new Padding(3, 2, 3, 2);
+            txtCategoryID.Name = "txtCategoryID";
+            txtCategoryID.Size = new Size(164, 23);
+            txtCategoryID.TabIndex = 4;
+            // 
             // fAdmin
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -1154,7 +1152,6 @@
         private TextBox txtDisplayName;
         private Label label6;
         private Panel panel19;
-        private TextBox txtCategoryID;
         private Label label7;
         private TextBox txtCategoryName;
         private Button btnShowCategory;
@@ -1193,5 +1190,6 @@
         private ComboBox cbAccountType;
         private Button btnResetPass;
         private Button btnAddAccount;
+        private TextBox txtCategoryID;
     }
 }
