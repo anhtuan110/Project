@@ -592,6 +592,7 @@
             btnShowCategory.TabIndex = 3;
             btnShowCategory.Text = "Xem";
             btnShowCategory.UseVisualStyleBackColor = true;
+            btnShowCategory.Click += btnShowCategory_Click;
             // 
             // btnEditCategory
             // 
@@ -602,6 +603,7 @@
             btnEditCategory.TabIndex = 2;
             btnEditCategory.Text = "Sửa";
             btnEditCategory.UseVisualStyleBackColor = true;
+            btnEditCategory.Click += btnEditCategory_Click;
             // 
             // btnDeleteCategory
             // 
@@ -612,6 +614,7 @@
             btnDeleteCategory.TabIndex = 1;
             btnDeleteCategory.Text = "Xóa";
             btnDeleteCategory.UseVisualStyleBackColor = true;
+            btnDeleteCategory.Click += btnDeleteCategory_Click;
             // 
             // btnAddCategory
             // 
@@ -622,6 +625,7 @@
             btnAddCategory.TabIndex = 0;
             btnAddCategory.Text = "Thêm";
             btnAddCategory.UseVisualStyleBackColor = true;
+            btnAddCategory.Click += btnAddCategory_Click;
             // 
             // panel12
             // 

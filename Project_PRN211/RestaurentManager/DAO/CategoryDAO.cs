@@ -62,17 +62,19 @@ namespace RestaurentManager.DAO
 
         public bool DeleteCategory(int id)
         {
-            using (var context = new YourDbContext()) // Thay YourDbContext bằng tên của DbContext của bạn
+            using (var context = new QuanLyNhaHangContext()) 
             {
-                var category = context.Categories.FirstOrDefault(c => c.Id == id);
+                var category = context.FoodCategories.FirstOrDefault(c => c.Id == id);
                 if (category != null)
                 {
-                    context.Categories.Remove(category);
+                    context.FoodCategories.Remove(category);
                     int result = context.SaveChanges();
                     return result > 0;
                 }
                 return false;
             }
         }
+
+       
     }
 }
