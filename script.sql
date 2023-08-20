@@ -1,7 +1,7 @@
 ﻿
-CREATE DATABASE QuanLyQuanCafe
+CREATE DATABASE QuanLyNhaHang
 GO
-USE QuanLyQuanCafe
+USE QuanLyNhaHang
 GO
 CREATE TABLE TableFood
 (
