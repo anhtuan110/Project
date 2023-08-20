@@ -1,0 +1,5 @@
+{
+  "ConnectionStrings": {
+    "MyDatabase": "Server=DESKTOP-9U9K6NK;database=QuanLyNhaHang;uid=vinhtq;pwd=12345;TrustServerCertificate=True;"
+  }
+}
