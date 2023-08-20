@@ -26,14 +26,9 @@ namespace RestaurentManager.Models
 
 		protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 		{
-			Console.WriteLine(Directory.GetCurrentDirectory());
-			IConfiguration config = new ConfigurationBuilder()
-			.SetBasePath(Directory.GetCurrentDirectory())
-			.AddJsonFile("appsettings.json", true, true)
-			.Build();
-			var strConn = config["ConnectionStrings:MyDatabase"];
-			optionsBuilder.UseSqlServer(strConn);
-		}
+            var config = new ConfigurationBuilder().AddJsonFile("AppSetting.json").Build();
+            optionsBuilder.UseSqlServer(config.GetConnectionString("MyCnn"));
+        }
 
 		protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
