@@ -15,7 +15,8 @@ namespace RestaurentManager.Models
         public DateTime DateCheckOut { get; set; }
         public int IdTable { get; set; }
         public int Status { get; set; }
-
+        public decimal TotalBill { get; set; }
+        public double Discount { get; set; }
         public virtual TableFood IdTableNavigation { get; set; } = null!;
         public virtual ICollection<BillInfo> BillInfos { get; set; }
     }

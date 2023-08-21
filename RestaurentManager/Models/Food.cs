@@ -17,5 +17,9 @@ namespace RestaurentManager.Models
 
         public virtual FoodCategory IdCategoryNavigation { get; set; } = null!;
         public virtual ICollection<BillInfo> BillInfos { get; set; }
+        public override string ToString()
+        {
+            return Name;
+        }
     }
 }

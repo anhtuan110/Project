@@ -2344,11 +2344,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\admin\\Downloads\\Project-Toan\\RestaurentManager\\RestaurentManager.csproj",
+      "projectUniqueName": "C:\\Users\\admin\\Downloads\\ManageRestaurant\\ManageRestaurant\\RestaurentManager\\RestaurentManager.csproj",
       "projectName": "RestaurentManager",
-      "projectPath": "C:\\Users\\admin\\Downloads\\Project-Toan\\RestaurentManager\\RestaurentManager.csproj",
+      "projectPath": "C:\\Users\\admin\\Downloads\\ManageRestaurant\\ManageRestaurant\\RestaurentManager\\RestaurentManager.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\admin\\Downloads\\Project-Toan\\RestaurentManager\\obj\\",
+      "outputPath": "C:\\Users\\admin\\Downloads\\ManageRestaurant\\ManageRestaurant\\RestaurentManager\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
