@@ -67,6 +67,7 @@
             txtCategoryName = new TextBox();
             label6 = new Label();
             panel19 = new Panel();
+            txtCategoryID = new TextBox();
             label7 = new Label();
             panel13 = new Panel();
             btnShowCategory = new Button();
@@ -114,7 +115,6 @@
             btnAddAccount = new Button();
             panel25 = new Panel();
             dataGridView2 = new DataGridView();
-            txtCategoryID = new TextBox();
             tcAdmin.SuspendLayout();
             tpBill.SuspendLayout();
             panel1.SuspendLayout();
@@ -552,6 +552,14 @@
             panel19.Size = new Size(263, 46);
             panel19.TabIndex = 2;
             // 
+            // txtCategoryID
+            // 
+            txtCategoryID.Location = new Point(94, 13);
+            txtCategoryID.Margin = new Padding(3, 2, 3, 2);
+            txtCategoryID.Name = "txtCategoryID";
+            txtCategoryID.Size = new Size(164, 23);
+            txtCategoryID.TabIndex = 4;
+            // 
             // label7
             // 
             label7.AutoSize = true;
@@ -805,6 +813,7 @@
             btnAddTable.TabIndex = 0;
             btnAddTable.Text = "Thêm";
             btnAddTable.UseVisualStyleBackColor = true;
+            btnAddTable.Click += btnAddTable_Click;
             // 
             // panel17
             // 
@@ -1024,14 +1033,6 @@
             dataGridView2.RowTemplate.Height = 29;
             dataGridView2.Size = new Size(430, 253);
             dataGridView2.TabIndex = 0;
-            // 
-            // txtCategoryID
-            // 
-            txtCategoryID.Location = new Point(94, 13);
-            txtCategoryID.Margin = new Padding(3, 2, 3, 2);
-            txtCategoryID.Name = "txtCategoryID";
-            txtCategoryID.Size = new Size(164, 23);
-            txtCategoryID.TabIndex = 4;
             // 
             // fAdmin
             // 

@@ -28,9 +28,9 @@ namespace RestaurentManager
         {
             categoryList.DataSource = CategoryDAO.Instance.GetListCategory().Select(x => new
             {
-                id = x.Id, name = x.Name,
+                id = x.Id,
+                name = x.Name,
             });
-
         }
 
         void binddingCategory()
@@ -105,6 +105,11 @@ namespace RestaurentManager
         private void btnShowCategory_Click(object sender, EventArgs e)
         {
             loadCategory();
+        }
+
+        private void btnAddTable_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
