@@ -1,0 +1,5 @@
+{
+  "ConnectionStrings": {
+    "MyDatabase": "server=DESKTOP-K946E9G\\SQLEXPRESS;database=QuanLyNhaHang;uid=sa;pwd=123"
+  }
+}
