@@ -25,10 +25,7 @@ namespace RestaurentManager.Models
         public virtual DbSet<TableFood> TableFoods { get; set; } = null!;
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            var config = new ConfigurationBuilder().AddJsonFile("appsettings.json").Build();
-            optionsBuilder.UseSqlServer(config.GetConnectionString("MyCnn"));
-        }
+         => optionsBuilder.UseSqlServer(new ConfigurationBuilder().AddJsonFile("AppSetting.json").Build().GetConnectionString("MyCnn"));
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

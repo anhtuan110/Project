@@ -14,5 +14,9 @@ namespace RestaurentManager.Models
         public string Name { get; set; } = null!;
 
         public virtual ICollection<Food> Foods { get; set; }
+        public override string ToString()
+        {
+            return Name;
+        }
     }
 }
