@@ -94,7 +94,7 @@
             btnDeleteTable = new Button();
             btnAddTable = new Button();
             panel17 = new Panel();
-            dataGridView1 = new DataGridView();
+            dgvTable = new DataGridView();
             tpAccount = new TabPage();
             panel14 = new Panel();
             panel27 = new Panel();
@@ -147,7 +147,7 @@
             panel22.SuspendLayout();
             panel20.SuspendLayout();
             panel17.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dgvTable).BeginInit();
             tpAccount.SuspendLayout();
             panel14.SuspendLayout();
             panel27.SuspendLayout();
@@ -783,6 +783,7 @@
             btnShowTable.TabIndex = 3;
             btnShowTable.Text = "Xem";
             btnShowTable.UseVisualStyleBackColor = true;
+            btnShowTable.Click += btnShowTable_Click;
             // 
             // btnEditTable
             // 
@@ -793,6 +794,7 @@
             btnEditTable.TabIndex = 2;
             btnEditTable.Text = "Sửa";
             btnEditTable.UseVisualStyleBackColor = true;
+            btnEditTable.Click += btnEditTable_Click;
             // 
             // btnDeleteTable
             // 
@@ -803,6 +805,7 @@
             btnDeleteTable.TabIndex = 1;
             btnDeleteTable.Text = "Xóa";
             btnDeleteTable.UseVisualStyleBackColor = true;
+            btnDeleteTable.Click += btnDeleteTable_Click;
             // 
             // btnAddTable
             // 
@@ -817,23 +820,23 @@
             // 
             // panel17
             // 
-            panel17.Controls.Add(dataGridView1);
+            panel17.Controls.Add(dgvTable);
             panel17.Location = new Point(3, 2);
             panel17.Margin = new Padding(3, 2, 3, 2);
             panel17.Name = "panel17";
             panel17.Size = new Size(431, 273);
             panel17.TabIndex = 0;
             // 
-            // dataGridView1
+            // dgvTable
             // 
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(3, 2);
-            dataGridView1.Margin = new Padding(3, 2, 3, 2);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.RowTemplate.Height = 29;
-            dataGridView1.Size = new Size(426, 268);
-            dataGridView1.TabIndex = 0;
+            dgvTable.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvTable.Location = new Point(3, 2);
+            dgvTable.Margin = new Padding(3, 2, 3, 2);
+            dgvTable.Name = "dgvTable";
+            dgvTable.RowHeadersWidth = 51;
+            dgvTable.RowTemplate.Height = 29;
+            dgvTable.Size = new Size(426, 268);
+            dgvTable.TabIndex = 0;
             // 
             // tpAccount
             // 
@@ -1085,7 +1088,7 @@
             panel22.PerformLayout();
             panel20.ResumeLayout(false);
             panel17.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dgvTable).EndInit();
             tpAccount.ResumeLayout(false);
             panel14.ResumeLayout(false);
             panel27.ResumeLayout(false);
@@ -1176,7 +1179,7 @@
         private Button btnDeleteTable;
         private Button btnAddTable;
         private Panel panel17;
-        private DataGridView dataGridView1;
+        private DataGridView dgvTable;
         private Panel panel27;
         private Panel panel30;
         private Label label11;

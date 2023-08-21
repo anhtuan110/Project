@@ -27,14 +27,6 @@ namespace RestaurentManager.DAO
             }
         }
 
-        public FoodCategory GetCategoryByID(int id)
-        {
-            using (var context = new QuanLyNhaHangContext()) 
-            {
-                return context.FoodCategories.FirstOrDefault(c => c.Id == id);
-            }
-        }
-
         public bool AddCategory(string name)
         {
             using (var context = new QuanLyNhaHangContext()) 
