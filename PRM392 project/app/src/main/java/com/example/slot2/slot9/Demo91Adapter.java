@@ -1,6 +1,7 @@
 package com.example.slot2.slot9;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -63,6 +64,15 @@ public class Demo91Adapter extends BaseAdapter {
             holder.priceTv.setText(product.getPrice());
             holder.infoTv.setText(product.getInfo());
         }
+        convertView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Product91 product =mlist.get(position);
+                Intent intent =new Intent(context,Demo101MainActivity.class);
+                intent.putExtra("PRODUCT",product);
+                context.startActivity(intent);
+            }
+        });
         return convertView;
     }
 

@@ -31,11 +31,13 @@ public class Demo91MainActivity extends AppCompatActivity {
     private ListView listView;
     private Demo91Adapter adapter;
     private List<Product91> list;
+    Demo10CartManager cartManager;
     @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_demo91_main);
+        cartManager=Demo10CartManager.getInstance();
         listView =findViewById(R.id.demo91Listview);
         list=new ArrayList<>();
         adapter=new Demo91Adapter(this,list);
